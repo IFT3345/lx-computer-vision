@@ -183,7 +183,7 @@ class LaneServoingNode(DTROS):
 
         dist_img = self.jpeg.decode(image_msg.data)
         image = cv2.remap(dist_img, self.mapx, self.mapy, cv2.INTER_NEAREST)
-        # Resize the image to the desired dimensionsS
+        # Resize the image to the desired dimensions
         height_original, width_original = image.shape[0:2]
         img_size = image.shape[0:2]
         if img_size[0] != width_original or img_size[1] != height_original:
