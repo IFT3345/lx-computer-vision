@@ -105,7 +105,7 @@ où `[VBOT]` peut être n'importe quoi (mais n'oubliez pas ce nom pour la suite)
 Vous pouvez ensuite démarrer votre robot virtuel avec la commande:
 
 ```
-dts duckiebot virtual start [VBOT]
+dts duckiebot virtual start [VBOT] --pull
 ```
 
 Vous devriez le voir avec le statut « Booting » (démarrage) et enfin « Ready » (prêt) si vous consultez la commande `dts fleet discover` :
